@@ -66,7 +66,11 @@ The evaluation script and its help menu: ``python -m evaluator.lstm.trajnet_eval
 .. code-block::
    
    ## LSTM (saves model predictions. Useful for submission to TrajNet++ benchmark)
+   original command does not work:
    python -m evaluator.lstm.trajnet_evaluator --output OUTPUT_BLOCK/trajdata/lstm_directional_None.pkl --path <path_to_test_file>
+   my trial works:
+   python -m trajnetbaselines.lstm.trajnet_evaluator --output OUTPUT_BLOCK/trajdata/lstm_directional_None.pkl --path collision_test
+
 
    ## SGAN (saves model predictions. Useful for submission to TrajNet++ benchmark)
    python -m evaluator.sgan.trajnet_evaluator --output OUTPUT_BLOCK/trajdata/sgan_directional_None.pkl --path <path_to_test_file>
