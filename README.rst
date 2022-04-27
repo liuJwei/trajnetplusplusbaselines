@@ -70,6 +70,7 @@ The evaluation script and its help menu: ``python -m evaluator.lstm.trajnet_eval
    python -m evaluator.lstm.trajnet_evaluator --output OUTPUT_BLOCK/trajdata/lstm_directional_None.pkl --path <path_to_test_file>
    my trial works:
    python -m trajnetbaselines.lstm.trajnet_evaluator --output OUTPUT_BLOCK/trajdata/lstm_directional_None.pkl --path collision_test
+   第一行命令没有任何输出，第二行命令生成了test_pred文件夹和result.png，但是result里全市0。
 
 
    ## SGAN (saves model predictions. Useful for submission to TrajNet++ benchmark)
