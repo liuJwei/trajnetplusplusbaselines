@@ -1,6 +1,21 @@
+My commends
+=======================================
 The author does not provide the test data.
 After I tried to re-implement this repo, I encountered many bugs.
 I decide to look for other related works.
+
+在Pycharm中运行/调试Python module的方法：
+
+
+.. figure:: python-m-Run-Debug-Configurations.jpg
+图中的module name、parameters及working directory需要做相应的修改。
+
+与之对应的命令行代码为：
+
+
+.. code-block::
+
+   python -m trajnetbaselines.lstm.trajnet_evaluator --output OUTPUT_BLOCK/trajdata/lstm_directional_None.pkl --path collision_test
 
 TrajNet++ : The Trajectory Forecasting Framework
 ================================================
