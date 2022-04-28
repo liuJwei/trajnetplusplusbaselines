@@ -1,3 +1,7 @@
+The author does not provide the test data.
+After I tried to re-implement this repo, I encountered many bugs.
+I decide to look for other related works.
+
 TrajNet++ : The Trajectory Forecasting Framework
 ================================================
 
